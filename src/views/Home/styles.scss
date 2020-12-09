@@ -1,0 +1,51 @@
+.head-info {
+  border-color: hsl(217, 16%, 45%);
+
+  &--score {
+    .score-title {
+      color: hsl(229, 64%, 46%);
+    }
+    .score-value {
+      color: hsl(229, 25%, 31%);
+    }
+  }
+}
+.rules {
+  border-color: hsl(217, 16%, 45%);
+  
+  bottom: 24px;
+  right: 24px;
+}
+
+.scissors { background-image: radial-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%)); }
+.paper { background-image: radial-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%)); }
+.rock { background-image: radial-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%)); }
+.lizard { background-image: radial-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%)); }
+.cyan { background-image: radial-gradient( hsl(189, 59%, 53%), hsl(189, 58%, 57%)); }
+
+.scissors,
+.paper,
+.rock,
+.lizard,
+.cyan {
+  padding: 18px;
+  cursor: pointer;
+  &-board {
+    height: 110px;
+    width: 110px;
+    background-color: white;
+  }
+}
+
+.play {
+  .scissors,
+.paper,
+.rock,
+.lizard,
+.cyan {
+  &-board {
+    height: 150px;
+    width: 150px;
+  }
+}
+}

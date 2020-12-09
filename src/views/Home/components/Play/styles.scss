@@ -1,0 +1,8 @@
+.result {
+  button {
+    color: hsl(214, 47%, 23%);
+    &.lose {
+      color: hsl(349, 71%, 52%);
+    }
+  }
+}

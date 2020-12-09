@@ -1,0 +1,21 @@
+.board {
+
+  &.triangle {
+    .paper {
+      top: -55px;
+      left: 50%;
+      transform: translateX(-120%);
+    }
+    .scissors {
+      top: -55px;
+      right: 50%;
+      transform: translateX(120%);
+    }
+    .rock {
+      bottom: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+}
