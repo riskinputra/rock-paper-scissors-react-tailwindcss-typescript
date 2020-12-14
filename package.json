@@ -49,6 +49,8 @@
     ]
   },
   "devDependencies": {
+    "@types/react-redux": "^7.1.12",
+    "@types/webpack-env": "^1.16.0",
     "autoprefixer": "^9.0.0",
     "postcss-cli": "^8.2.0",
     "tailwindcss": "^1.9.6",
