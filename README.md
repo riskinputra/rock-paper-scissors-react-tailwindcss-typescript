@@ -22,6 +22,7 @@ The challenge is to build out this Rock, Paper, Scissors game and get it looking
 - [ ] Multiplayer _(optional)_
 - [ ] Top Score _(optional)_
 - [ ] PWA _(optional)_
+- [ ] Connect firebase _(optional)_
 
 ### Rules
 
