@@ -15,11 +15,13 @@ DEMO: [https://suwit-jepang.netlify.app/](https://suwit-jepang.netlify.app/)
 The challenge is to build out this Rock, Paper, Scissors game and get it looking as close to the design as possible.
 
 - [x] View the optimal layout for the game depending on their device's screen size
-- [ ] Play Rock, Paper, Scissors against the computer
+- [x] Play Rock, Paper, Scissors against the computer
+- [x] State Management (Redux Tool Kit) _(optional)_
 - [ ] Maintain the state of the score after refreshing the browser _(optional)_
 - [ ] Play Rock, Paper, Scissors, Lizard, Spock against the computer _(optional)_
 - [ ] Multiplayer _(optional)_
 - [ ] Top Score _(optional)_
+- [ ] PWA _(optional)_
 
 ### Rules
 
