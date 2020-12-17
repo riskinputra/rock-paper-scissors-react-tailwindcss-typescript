@@ -39,13 +39,16 @@
 
 .play {
   .scissors,
-.paper,
-.rock,
-.lizard,
-.cyan {
-  &-board {
-    height: 150px;
-    width: 150px;
+  .paper,
+  .rock,
+  .lizard,
+  .cyan {
+    max-width: 146px;
+    max-height: 146px;
+
+    &-board {
+      height: 110px;
+      width: 110px;
+    }
   }
-}
 }

@@ -1,15 +1,24 @@
 import React from 'react'
+import { useDispatch } from 'react-redux'
+
+import {
+  setPlayerChoice,
+  aiTrigger,
+  setScore,
+  setFinalResult
+} from 'slice/GameplaySlice';
 
 import  './styles.scss'
 
-interface BoardProps {
-  playerPicked: (picked: string) => void
-}
 
-function Board({ playerPicked }: BoardProps) {
+function Board() {
+  const dispatch = useDispatch()
 
   const handleClickPicked = (value: string) => {
-    playerPicked(value)
+    dispatch(setPlayerChoice(value))
+    dispatch(aiTrigger())
+    dispatch(setFinalResult())
+    dispatch(setScore())
   }
 
   return (

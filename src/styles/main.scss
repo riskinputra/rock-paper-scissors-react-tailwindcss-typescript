@@ -583,7 +583,10 @@ html,
   font-weight: 600;
   font-size: 1rem;
   box-sizing: border-box;
-  height: calc(100vh - 4rem);
+  height: 100vh;
+  @media (min-width: 768px) {
+    height: calc(100vh - 4rem);
+  }
 }
 
 body {
